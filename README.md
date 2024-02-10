@@ -11,7 +11,12 @@ how to run:
 ```
 python3 -m venv venv
 
+// for mac
 source venv/bin/activate
+// for windows **FROM THE COMMAND LINE, NOT POWERSHELL**
+venv\Scripts\activate.bat
+
+
 
 pip install -r requirements.txt
 
